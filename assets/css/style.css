@@ -1,0 +1,79 @@
+/*Theme style */
+body{
+	font-size:18px;
+}
+.main {
+	margin: 0px auto;
+    width: 1200px;
+}
+.head {
+	width: 30%;
+	float: left;
+}
+.section {
+	width: 70%;
+	float: left;
+	margin-bottom: 30px;
+}
+
+/*Theme style end*/
+
+/* Components */
+.bs-text{
+	border: 1px solid #D7D7D7;
+    padding: 5px 25px 5px 5px;
+    border-radius: 2px;
+}
+.bs-text~.text-icon {
+	right: 32px;
+}
+.text-icon {
+	position: relative;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	display: block;
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	pointer-events: none;
+}
+.bs-check-icon input[type="checkbox"] {
+	left: -9999px;
+	position: absolute;
+}
+.bs-radio-icon input[type="radio"] {
+	left: -9999px;
+	position: absolute;
+}
+.bs-check-icon input[type="checkbox"]:checked+span {
+	color: #01A198;
+}
+.bs-check-icon input[type="checkbox"]:checked {
+	color: #01A198;
+}
+.bs-radio-icon input[type="radio"]:checked+span {
+	color: #01A198;
+}
+.bs-radio-icon input[type="radio"]:checked {
+	color: #01A198;
+}
+.bs-img-icon {
+    background: url("http://dev1.venturepact.com/themes/adminre/style/home/images/firstProPopup-sprite-new-white.png") no-repeat;
+    width: 55px;
+    height: 52px;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    background-color: #C1C1C1;
+    background-position: -41px -49px;
+    border-radius: 23px;
+}
+.bs-check-icon input[type="checkbox"]:checked+.bs-img-icon {
+    background-position: 1px -48px;
+   background-color: #676767;
+}
+.bs-check-icon{    float: left;
+    margin-right: 20px;}
+/* Components end*/
